@@ -1,5 +1,5 @@
 {
-  "name": "sayhello",
+  "name": "@vishipayyallore/sayhello",
   "version": "1.0.2",
   "description": "This is Simple npm package for testing",
   "main": "index.js",
