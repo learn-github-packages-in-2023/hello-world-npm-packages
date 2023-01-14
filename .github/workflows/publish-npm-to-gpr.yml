@@ -24,7 +24,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm install
         working-directory: ./sayhello
-      - run: npm publish
-        working-directory: ./sayhello
+      - run: npm publish ./sayhello
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
