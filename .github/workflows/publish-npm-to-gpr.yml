@@ -30,6 +30,6 @@ jobs:
           echo @vishipayyallore:https://npm.pkg.github.com/ > ./sayhello/.npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> ./sayhello/.npmrc
       - run: npm publish 
-        working-directory: ./build
+        working-directory: ./sayhello
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
