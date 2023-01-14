@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/learn-github-packages-in-2023/hello-world-npm-packages.git"
